@@ -1,0 +1,423 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* для ДЗ из Фигмы */
+
+
+body {
+    font-family: "Lato", sans-serif;
+    color: #424551;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 810px;
+    margin: 0px auto;
+}
+.header {
+    margin-bottom: 40px;
+}
+.main {
+    margin: 0px 0px 60px 0px;
+}
+.article-title {
+    margin: 0px 0px 26px 0px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+}
+.meta {
+    margin: 0px 0px 40px 0px;
+    color: #787A80;
+} 
+
+.meta span {
+    display: inline-block;
+    padding: 0px 0px 0px 24px;
+}
+
+.date {
+    background: url('../img/calendar.svg') 0 5px no-repeat;
+    margin: 0px 24px 0px 0px; 
+}
+.time-to-read {
+    background: url('../img/union.svg') 0 5px no-repeat;
+}
+
+.article-img {
+    margin-bottom: 60px;
+}
+.text-intro {
+    margin-bottom: 24px;
+}
+
+.lead {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+}
+
+.text1 {
+    margin: 0px 0px 40px 0px;
+}
+
+.text {
+    margin: 0px 0px 50px 0px;
+}
+.quotation {
+    margin: 0px 0px 48px 0px;
+    padding: 0px 0px 0px 58px;
+    background: url('../img/braces.svg') 0 0 no-repeat;
+
+}
+.text2 {
+    margin: 0px 0px 24px 0px;
+
+}
+.bulleted-list {
+    margin: 0px 0px 24px 0px;
+}
+/* 
+[class*="-list-item"] {
+    margin: 0px 0px 4px 0px;
+    padding: 0px 0px 0px 32px;
+    background: url('../img/check.svg') 0 5px  no-repeat;
+} */
+
+.text3 {
+    margin-bottom: 60px;
+}
+
+.menu-link {
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(221, 14, 111);
+    text-decoration: underline;
+}
+.return {
+    color: rgb(4, 78, 4);
+}
+
+a.last,
+.last {
+    margin-bottom: 0;
+}
+
+.footer {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Figma */
+.additional-container,
+.about-container {
+    max-width: 390px;
+    margin: 0 auto;
+}
+.about-title {
+    margin: 0px 0px 40px 0px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+}
+.about-suptitle {
+    margin: 0px 0px 8px 0px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #1E212C;
+}
+.about-list {
+    margin: 0px 0px 48px 0px;
+}
+.about-list-item {
+    padding: 0px 0px 0px 32px;
+    margin: 0px 0px 12px 0px;
+}
+
+.about-list-item::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0px 16px 0px -32px;
+    background: url('../img/check.svg') 0 0 / 16px no-repeat;
+}
+
+.button {
+    display: inline-block;
+    padding: 0px 32px;
+    margin: 0px 0px 50px 0px; 
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 3.1;
+    text-align: center;
+    color: #fff;
+}
+
+.button:hover {
+    background: #fff;
+    border: 2px solid #FF3F3A;
+    color: #FF3F3A;
+}
+
+
+.additional-task {
+    display: inline-block;
+    padding: 30px;
+}
+.additional-task-title {
+    font-family: "Taviraj", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+
+.additional-task-title::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    margin: 8px 0px 0px 0px;
+    background-color: #333333;
+}
+
+
+/* Стили для произвольной статьи   */
+
+.main-title {
+    margin: 0px 0px 20px 0px;
+    font-family: "RobotoSerif-Bold", san-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:rgb(3, 54, 14);
+}
+
+.main-subtitle {
+    margin: 0px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 30px;
+    color:rgb(4, 15, 65);
+}
+
+.intro {
+    width: 100%;
+    padding: 80px 20px;
+    background: url('../img/intro-bg.jpeg') center /  cover no-repeat;
+    text-align: center;
+    border: 10px solid #333333;
+    border-radius: 30px;
+}
+
+.intro-title {
+    max-width: 700px;
+    margin: 0px auto 50px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.3;
+    text-transform: uppercase;
+
+}
+
+.intro-link {
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 5px solid #333333;
+    color: rgb(51, 51, 51);
+    border-radius: 50px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 5px 0px rgb(51, 51, 51);
+    margin: 0px 0 50px 0; 
+}
+
+.intro-link:hover {
+    color: #fff;
+    background-color: rgb(51, 51, 51);
+    border: 5px solid transparent;
+    box-shadow: 0px 2px 0px 0px rgb(51, 51, 51);
+    margin: 4px 0 50px 0; 
+}
+
+
+.intro-link:active {
+    background-color: rgb(51, 51, 51, 0.8);
+    border: 5px solid transparent;
+    box-shadow: inset 0px 0px 5px 0px #fff;
+    margin: 8px 0 50px 0; 
+}
+
+.intro-link:visited {
+    background-color: rgb(51, 51, 51, 0.8);
+    /* outline: 2px solid rgb(255, 255, 255); */
+}
+
+.intro-link:focus {
+    background-color: rgba(207, 84, 12, 0.8);
+}
+
+.block {
+    display: none;
+    padding: 30px;
+    max-width: 80%;
+    margin: 0 auto 20px;
+    background: rgba(255, 255, 255, 0.5) url('../img/small-bg.jpeg') center / cover no-repeat; ;
+    border: 5px solid #333;
+    border-radius: 30px;
+}
+
+.block:target {
+    display : block;
+}
+
+.block-list {
+    width: 80%;
+    margin: 0 auto 20px;
+    text-align-last: left;
+}
+
+.block-list-item {
+    text-align-last: left;;
+    border-radius: 30px;
+    text-align-last: left;
+}
+
+.block-list li:not(:last-child) {
+    margin: 0px 0px 20px 0px;
+}
+
+.block-link {
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 30px 10px 40px;
+    border: 5px solid #333333;
+    color: #333333;
+    border-radius: 30px;
+}
+.block-link:hover {
+    color:#FF3F3A;
+    background-color: #fff;
+    border: 5px solid #333333;
+}
+
+
+.block-link::before {
+    content: "";
+    display: inline-block;
+    margin: 0px 5px -2px -25px;
+    width: 16px;
+    height : 16px;
+    border-radius: 50%;
+    background: url('../img/check-black.svg') 0 0 / 16px no-repeat;
+}
+
+.block-list-item:hover .block-link::before {
+    background: url('../img/check.svg') 0 0 / 16px no-repeat;
+    background-color: #fff;
+}
+.block-details {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 5px solid #333333;
+    border-radius: 30px;
+}
+
+.block-details-title {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+
+
+.block-details-title::after {
+    content:"";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #ff0000;
+    margin: 0px 0px 5px 0px;
+}
+
+.block-text {
+    text-align: left;
+    padding: 0 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.block-text:last-child {
+    margin-bottom: 0;
+}
+
+.block-details p:first-of-type::first-line {
+    font-weight: 700;
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+.block-details p:nth-of-type(2)::first-letter {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ff0000;
+}
+
+.block-text:nth-child(5) {
+    color: rgb(78, 61, 4);
+    border: 2px solid rgb(78,61,4);
+    border-radius: 10px;
+}
+
+.block-text-list {
+    counter-reset: item;
+}
+
+
+.block-text:hover {
+    background: url('../img/flower.jpg') center / cover no-repeat;
+    color: #fff;
+    font-weight: 700;
+    border: 2px solid rgb(78,61,4);
+    border-radius: 10px;
+} 
+
+.block-text-list li::before {
+    counter-increment: item;
+    content: "(" counter(item) ")";
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0px 10px 0px 0px;
+    color: #ff0000;
+}
+
+.intro-link:last-of-type {
+    margin-bottom: 0;
+}
+
