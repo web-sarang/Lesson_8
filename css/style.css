@@ -158,6 +158,9 @@ a.last,
     background: url('../img/check.svg') 0 0 / 16px no-repeat;
 }
 
+.about-list-item.last {
+    margin: 0;
+}
 .button {
     display: inline-block;
     padding: 0px 32px;
